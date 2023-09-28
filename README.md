@@ -14,35 +14,33 @@ Streameo is a web-based platform for uploading, streaming, and sharing videos. T
 
 ## Directory Structure
 
-project_root/
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ └── ...
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── README.md
-│ └── ...
-├── backend/
-│ ├── src/
-│ │ ├── controllers/
-│ │ ├── middleware/
-│ │ ├── modules/
-│ │ ├── app.module.ts
-│ │ └── ...
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── README.md
-│ └── ...
-├── .gitignore
-├── README.md (This file)
-└── ...
+project_root/  
+├── frontend/  
+│ ├── public/  
+│ ├── src/  
+│ │ ├── components/  
+│ │ ├── pages/  
+│ │ ├── App.js  
+│ │ └── ...  
+│ ├── package.json  
+│ ├── package-lock.json  
+│ ├── README.md  
+│ └── ...  
+├── backend/  
+│ ├── src/  
+│ │ ├── controllers/  
+│ │ ├── middleware/  
+│ │ ├── modules/  
+│ │ ├── app.module.ts  
+│ │ └── ...  
+│ ├── package.json  
+│ ├── package-lock.json  
+│ ├── README.md  
+│ └── ...  
+├── .gitignore  
+├── README.md (This file)  
+└── ...  
 
-markdown
-Copy code
 
 ## Installation Instructions
 
@@ -97,11 +95,11 @@ Open your web browser and access the application at http://localhost:3000.
 ```
 
 ## Application Usage
-Register a new user account.
-Log in with your newly created account.
-Upload videos with titles and thumbnails.
-View and play videos in the list.
-Log out when finished.
+* Register a new user account.
+* Log in with your newly created account.
+* Upload videos with titles and thumbnails.
+* View and play videos in the list.
+* Log out when finished.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
