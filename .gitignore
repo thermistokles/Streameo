@@ -1,0 +1,8 @@
+# Ignore dependencies and build artifacts for Nest.js backend
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+
+# Ignore dependencies and build artifacts for React frontend
+/frontend/node_modules/
+/frontend/build/

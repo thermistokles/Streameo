@@ -1,0 +1,1 @@
+export const secret = '<Enter your secret key here>';
