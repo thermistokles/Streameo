@@ -5,9 +5,11 @@ Streameo is a web-based platform for uploading, streaming, and sharing videos. T
 ## Project Description
 
 - **Frontend:** The frontend of the application is developed using React, providing a user-friendly interface for registration, video upload, and video playback.
-  
+..
+
 - **Backend:** The backend is powered by Nest.js, a scalable and efficient Node.js framework. It handles user authentication, video storage, and video streaming.
-  
+..
+
 - **Database:** MongoDB is used as the database to store user data and video metadata.
 
 ## Directory Structure
