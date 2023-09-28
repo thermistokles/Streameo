@@ -56,23 +56,23 @@ Follow these steps to set up and run the Video Streaming Application on your loc
 cd backend/
 ```
 
-1. Install backend dependencies:
+2. Install backend dependencies:
 
 ```
 npm install
 ```
 
-2. In /backend/src/utils/constants/ts, add a secret key in line 1:
+3. In /backend/src/utils/constants/ts, add a secret key in line 1:
 ```
 export const secret = '<Enter your secret key here>';
 ```
 
-3. In /backend/src/app.module.ts, add your MongoDB connection string in line 22:
+4. In /backend/src/app.module.ts, add your MongoDB connection string in line 22:
 ```
 MongooseModule.forRoot('<Enter your MongoDB connection string here>'),
 ```
 
-4. Start the backend server:
+5. Start the backend server:
 ```
 npm start
 ```
@@ -84,19 +84,19 @@ npm start
 cd frontend/
 ```
 
-1. Install frontend dependencies:
+2. Install frontend dependencies:
 
 ```
 npm install
 ```
 
-2. Start the frontend development server:
+3. Start the frontend development server:
 
 ```
 npm start
 ```
 
-3. Open your web browser and access the application at http://localhost:3000.
+4. Open your web browser and access the application at http://localhost:3000.
 
 
 ## Application Usage
